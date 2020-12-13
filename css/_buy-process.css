@@ -1,0 +1,34 @@
+* {box-sizing: border-box;}
+
+:root {
+	--mainColor: #800000;
+	--white: white;
+	--black: black;
+	--gray: gray;
+}
+
+body {
+	margin: 0;
+}
+nav, footer, main {
+	height: 100px;
+	background-color: rgba(255,255,255, 0.5);
+	margin: 0 200px;
+}
+
+ol span {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: var(--gray);
+	color: var(--white);
+}
+
+.active {
+	background-color: var(--mainColor);
+}
+
+button {
+	background-color: var(--mainColor);
+	color: var(--white);
+}
